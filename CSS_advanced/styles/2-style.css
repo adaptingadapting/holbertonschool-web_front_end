@@ -1,6 +1,6 @@
 html{scroll-behavior: smooth;}
-body{foreground-color: #161616}
-anchor{foreground-color: #161616}
+body{color: #161616}
+anchor{color: #161616}
 .visually-hidden{display: "none"}
-.card-category{foreground-color: #D73953}
-.section-tagline{foregroun-color: #D73953}
+.card-category{color: #D73953}
+.section-tagline{color: #D73953}
