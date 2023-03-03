@@ -2,7 +2,7 @@
 html{scroll-behavior: smooth; font-size: 62.5%}
 body{line-height: var(--line-height-base); font-weight: var(--font-weight-regular); font-size: var(--font-size-medium); font-family: var(--font-family-base); color: var(--text-color)}
 h1, h2, h3, h4, h5, h6{font-weight: var(--font-weight-bold); font-family: var(--font-family-title)}
-a{text-decoration: None; color: var(--text-color)}
+a{text-decoration: none; color: var(--text-color)}
 .visually-hidden{display: "none"}
 .card-category{color: var(--color-primary)}
 .section-tagline{color: var(--color-primary)}
