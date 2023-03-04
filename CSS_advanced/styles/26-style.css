@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6{font-weight: var(--font-weight-bold); font-family: var(--
 [data-section-theme="dark"] {--text-color: var(--color-white); --section-title-color: var(--color-white); background: var(--color-black); --button-color: var(--color-white)}
 .card-testimonial{text-align: center}
 .card-testimonial .card-avatar{border-radius: 50%; width: 10rem; height: 10rem}
-.card-testimonial .card-quote cite{display: block; padding-top: 1rem; color: var(--pimary-color)}
+.card-testimonial .card-quote cite{display: block; padding-top: 1rem; color: var(--primary-color)}
 .card-services .card-title{margin: 0}
 .card-services a{display: block; padding: 2rem; background-color: var(--color-light-grey)}
 .card-services a:hover{color: var(--color-white); background-color: var(--color-primary); text-decoration: none}
