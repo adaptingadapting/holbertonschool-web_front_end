@@ -3,7 +3,7 @@
 html{scroll-behavior: smooth; font-size: 62.5%}
 body{line-height: var(--line-height-base); font-weight: var(--font-weight-regular); font-size: var(--font-size-medium); font-family: var(--font-family-base); color: var(--text-color)}
 h1, h2, h3, h4, h5, h6{font-weight: var(--font-weight-bold); font-family: var(--font-family-title)}
-.row:after{content: none; display: table; clear: both}
+.row::after{content: none; display: table; clear: both}
 a:link{text-decoration: none; color: var(--text-color)}
 a:visited{font-style: italic}
 a:hover{text-decoration: underline}
