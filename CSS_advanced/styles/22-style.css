@@ -1,9 +1,9 @@
 :root{--section-tagline-margin: 0; --nav-item-font-family: var(--font-family-title); --nav-item-font-weight: var(--font-weight-bold); --nav-item-font-size: var(--font-size-medium); --nav-item-letter-spacing: 0.04rem; --nav-item-display: inline-block; --nav-item-margin: 0 0 3rem 0; --nav-item-link-hover: var(--color-primary); --section-padding: 5rem 0; --section-header-padding: 0 0 3rem; --section-body-padding: 0 0 3rem; --section-footer-padding: 3rem 0 0; --section-footer-align: center; --footer-padding: 5rem 0 1rem; --section-title-margin: 0; --section-title-color: var(--color-black); --section-tagline-transform: uppercase; --section-header-align: center; --line-height-small: 1.2; --line-height-base: 1.5; --line-height-big: 1.8; --font-weight-regular: 400; --font-weight-bold: 700; --color-primary: #d73953; --color-black: #090909; --color-white: #ffffff; --color-light-grey: #f3f3f3; --color-dark-grey: #353535; --text-color: var(--color-black); --font-family-base: var(Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif); --font-family-title: var(Raleway, Helvetica Neue, Helvetica, Arial, sans-serif); --font-size-small: 1.2rem; --font-size-medium: 1.6rem; --font-size-large: 1.8rem; --font-size-x-large: 2.3rem; --font-size-xx-large: 4.8rem}
-[data-section-theme=“dark”]{--text-color: var(--color-white); --section-title-color: var(--colow-white); background: var(--color-black)}
 *, *:before, *:after{box-sizing: border-box}
 html{scroll-behavior: smooth; font-size: 62.5%}
 body{line-height: var(--line-height-base); font-weight: var(--font-weight-regular); font-size: var(--font-size-medium); font-family: var(--font-family-base); color: var(--text-color)}
 h1, h2, h3, h4, h5, h6{font-weight: var(--font-weight-bold); font-family: var(--font-family-title)}
+[data-section-theme=“dark”]{--text-color: var(--color-white); --section-title-color: var(--colow-white); background: var(--color-black)}
 .row::after{content: ""; display: table; clear: both}
 a:link{text-decoration: none; color: var(--text-color)}
 a:visited{font-style: italic}
